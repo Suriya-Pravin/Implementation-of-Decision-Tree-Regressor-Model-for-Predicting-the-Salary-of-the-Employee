@@ -17,12 +17,12 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 6. Predict the values of array.
 7. Apply to new unknown values.
 ## Program:
-```
+```py
 /*
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 Developed by: Suriya Pravin M
 RegisterNumber: 212223230223
-
+*/
 import pandas as pd
 data=pd.read_csv("Salary.csv")
 
@@ -56,15 +56,21 @@ r2=metrics.r2_score(y_test,y_pred)
 r2
 
 dt.predict([[5,6]])
-*/
+
 ```
 
 ## Output:
-![Screenshot 2024-10-12 133044](https://github.com/user-attachments/assets/04953e91-39d8-44be-8d79-81e8a0e083f0)
+### Position
 
-![Screenshot 2024-10-12 133050](https://github.com/user-attachments/assets/549f0355-f429-4b17-a5ad-f0955a570874)
+![image](https://github.com/user-attachments/assets/b0002ca2-b3c9-429f-af48-8fe612695165)
 
-![Screenshot 2024-10-12 133111](https://github.com/user-attachments/assets/666b4b0b-cbe7-466f-9700-580108b7e7ef)
+### MSE
+
+![image](https://github.com/user-attachments/assets/f135a25c-e462-4b5b-aca1-37e7cfcdd2e1)
+
+### Predict
+
+![image](https://github.com/user-attachments/assets/98a06781-0594-4eba-8864-e13be6b07364)
 
 ## Result:
 Thus the program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee is written and verified using python programming.
